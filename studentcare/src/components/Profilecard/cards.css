@@ -1,0 +1,38 @@
+.profilecard{
+    width: 250px;
+    height: 280px;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 3%;
+}
+.profilecardimg img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-top: 7%;
+    
+}
+.profilecardimg{
+    display: flex;
+    justify-content: center;
+}
+.profilecardname{
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.links i{
+    font-size: 23px;
+    color: white;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .profilecard{
+        margin-top: 3%;
+    }
+}

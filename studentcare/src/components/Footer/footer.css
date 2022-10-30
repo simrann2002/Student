@@ -1,0 +1,15 @@
+.footerdiv{
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerdiv i{
+    margin-right: 5px;
+}

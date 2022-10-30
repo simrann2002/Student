@@ -1,0 +1,9 @@
+.issueheading{
+    text-align: center;
+}
+.noissues{
+    color: gray;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

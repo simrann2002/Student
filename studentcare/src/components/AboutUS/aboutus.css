@@ -1,0 +1,30 @@
+.aboutuspage{
+    
+    min-height: 90vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.aboutuspage h3{
+    margin-top: -5%;
+}
+.profilecards{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        column-gap: 20px;
+        margin-top: 5%;
+
+
+ }
+
+
+ @media (max-width: 768px) {
+     .profilecards{
+         justify-content: center;
+         flex-wrap: wrap;
+     }
+ }

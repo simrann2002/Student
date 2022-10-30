@@ -1,0 +1,61 @@
+.hostelcard{
+    height: 280px;
+    width: 350px;
+    cursor: pointer;
+}
+.hostelcontainer{
+    display: flex;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.imgdiv img{
+    width: 100%;
+    /* height: 15%; */
+    border-radius: 20px;
+}
+
+.namediv .hostelname{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+.namediv{
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.hostelbox,
+.hostelbox2{
+    height: 170px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url('./hostelbag.webp');
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+}
+.hostelbox2{
+    background-image: url('./canteen.jpg');
+
+}
+.blur{
+    background-color: rgba(0, 0, 0, 0.493);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.twocards{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}

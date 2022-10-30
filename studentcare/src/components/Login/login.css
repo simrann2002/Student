@@ -1,0 +1,100 @@
+.forms{
+    height: 100vh;
+    background-position-y: 0%;
+    background-position-x: center;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+}
+.loginpage{
+    background-image: url('./PICT.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.formlogin{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: auto;
+    align-items: center;
+    margin: auto;
+    margin-top: 10%;
+    padding-top: 5%;
+    padding-bottom:5%;
+    border-radius: 1%;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.signupform{
+    margin-top: -2%;
+}
+
+.formlogin .input{
+    height: 40px;
+    background-color: transparent;
+    color: black;
+    margin-top: 5%;
+    width: 70%;
+    padding-inline: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.formlogin .input::placeholder{
+    color:black;
+}
+.formlogin button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+}
+.formlogin p{
+    margin-top: 3%;
+    color: white;
+}
+.checkboxdiv{
+    display: flex;
+    column-gap: 5px;
+    margin-top: -2%;
+}
+.checkboxdiv div
+{
+    display: flex;
+    align-items: center;
+
+}
+.checkboxdiv div label{
+    margin-right: 5px;
+    color: white;
+}
+@media (max-width: 768px) {
+    .forms{
+        height: 100%;
+        /* padding-top: auto; */
+        background-position-y: 10%;
+        background-size: 200px;
+    }
+    .loginpage{
+        background-image: none;
+    }
+    .formlogin{
+        width: 100%;
+        margin-top:30%;
+        /* padding: auto; */
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+    .formlogin .input{
+        width: 90%;
+        margin-top: 8%;
+    }
+    .formlogin button{
+        margin-top: 8%;
+    }
+}

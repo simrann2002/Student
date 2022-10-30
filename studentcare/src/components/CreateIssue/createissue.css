@@ -1,0 +1,38 @@
+.issuebox{
+    width: 60%;
+    text-align: center;
+    margin-top: 3%;
+    border: 1px solid black;
+    padding: 3%;
+    border-radius: 2%;
+    height: max-content;
+}
+.issuecontainer{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+}
+.issuebox .selectclass,
+.issuebox textarea{
+    width: 100%;
+    margin-top: 20px;
+}
+.issuebox textarea{
+    padding: 7px;
+}
+.issuebox .selectclass{
+    height: 40px;
+    border-radius: 2px;
+    padding: 3px;
+}
+.selectclass2{
+    height: 30px;
+    padding: 2px;
+
+}
+
+@media (max-width: 768px) {
+    .issuebox{
+        width: 100%;
+    }
+}
